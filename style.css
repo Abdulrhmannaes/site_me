@@ -1,0 +1,162 @@
+body {
+    direction: rtl;
+    font-family: sans-serif;
+    color: white;
+}
+h2 {
+    margin-bottom: 20px;
+}
+header {
+    background-color: darkorange;
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+.my_profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:  2px solid black;
+    object-fit: cover;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#ph_in{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:  2px solid wheat;
+    background-color: darkorange;
+}
+#log {
+    text-align: center;
+    padding: 40px;
+    background-color: darkgray;
+}
+#about_me {
+    text-align: center;
+    padding: 40px;
+    background-color: #9d9d9d;
+}
+#my_project {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:darkorange;
+
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+.ph_project {
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    background-color: lightslategray;
+}
+.photos .ph_project img {
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 20px;  
+}
+.address {
+    text-align: center;
+    color: black;
+
+}
+.my_skill {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+.line {
+    color: black;
+
+}
+.skill_html {
+    margin-bottom: 20px;
+}
+.skill_css {
+    margin-bottom: 20px;
+}
+.skill_js {
+    margin-bottom: 20px;
+}
+.skill_java {
+    margin-bottom: 20px;
+}
+.parsent {
+    background-color:black;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.pre {
+    background-color:darkorange;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 6px 0 0 6px;
+}
+#call_me {
+    background-color: #9d9d9d;
+    padding: 40px 20px ;
+    text-align: center;
+}
+.forms {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: right;
+    color: black;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input , textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+button {
+    background-color: darkorange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.to_up {
+    background-color: lightgray;
+    color: white;
+    text-align: right;
+    margin-right: 700px;
+    font-size: 22px;
+    padding: 10px 5px 10px 5px;
+}
+#down {
+    background-color: darkorange;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 30px; 
+}

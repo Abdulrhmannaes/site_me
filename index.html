@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top">
+`       <img src="images/photo2.jpg.jpg " alt="صورة ملفي الشخصي "
+         class="my_profile">
+        <h1>مرحبا يا أصدقاء! أنا عبدالرحمن ناعس </h1>
+        <nav>
+            <ul>
+                <li><a href="#log">الرئيسية</a></li>
+                <li><a href="#about_me">من أنا</a></li>
+                <li><a href="#my_project">أعمالي</a></li>
+                <li><a href="#skills">مهاراتي</a></li>
+                <li><a href="#call_me">اتصل بنا</a></li>
+            </ul>
+        </nav>   
+    </header>
+    <main>
+        <section id="log">
+            <img src="images/photo.jpg.png" alt="تصميم مواقع ويب" id="ph_in">
+            <h2>مرحبا بكم يا أصدقاء في موقعي الشخصي </h2>
+            <p>أنا مصمم مواقع ويب </p>
+            <p>و سوف أقوم بمشاركتكم المشاريع التي أنجزها</p>
+        </section>
+        <section id="about_me">
+            <h2>من أنا</h2>
+            <p>أنا طالب في جامعة ادلب ادرس هندسة معلوماتية</p>
+            <p>واختصاصي الجامعي هندسة نظم وبرمجيات </p>
+            <p>وأتمتع بشغف كبير لأن أصبح مصمم مواقع ويب </p>
+            <p>وأسعى دائما لتطوير مهاراتي ومواجهة التحديات الجديدة </p>
+        </section>
+        <section id="my_project">
+            <h2>معرض الأعمال الخاص بي</h2>
+            <p>هنا سوف أريكم بعضا من أعمالي التي أنشأتها</p>
+            <div class="photos">
+            <div class="ph_project">
+                <h3>المشروع الأول</h3>
+                <img src="images/photo3.jpg" alt="تسجيل دخول">
+                <p>واجهة تسجيل دخول باستخدام html and css</p>
+                
+            </div>
+            <div class="ph_project">
+                <h3>المشروع الثاني</h3>
+                <img src="images/photo4.jpg" alt="قائمة مدورة">
+                <p>قائمة بسيطة تحوي على رموز تفيد المستخدم</p>
+                <p>بتصفح الموقع تمت برمجتها باستخدام html and css</p>
+                
+            </div>
+            <div class="ph_project">
+                <h3>المشروع الثالث</h3>
+                <img src="images/photo5.png" alt="تدريب بدورة الخدمات الادارية">
+                <p>أول مشروع لتعلم css</p>
+            </div>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <h2 class="address">مهاراتي ب html , css , java script and java</h2>
+            <div class="my_skill">
+                <div class="skill_html">
+                    <p class="line">HTML</p>
+                    <div calss="parsent">
+                        <div class="pre" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="skill_css">
+                    <p class="line">css</p>
+                    <div calss="parsent">
+                        <div class="pre" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+                <div class="skill_js">
+                    <p class="line">Java script</p>
+                    <div calss="parsent">
+                        <div class="pre" style="width: 25%;">25%</div>
+                    </div>
+                </div>
+                <div class="skill_java">
+                    <p class="line">java</p>
+                    <div calss="parsent">
+                        <div class="pre" style="width: 30%;">30%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="call_me">
+            <h2>تواصل معي</h2>
+            <form class="forms">
+                <div class="tell">
+                    <label for="name">الاسم :</label><br />
+                    <input type="text" name="name"
+                     id="name" required placeholder="أدخل اسمك الثلاثي">
+                </div>
+                <div class="tell">
+                    <label for="em">أدخل بريدك الالكتروني :</label><br />
+                    <input type="email" name="email" id="em"
+                     placeholder="example@emai.com" required>
+                </div>
+                <div class="tell">
+                    <label for="tel" >رقم الواتس :</label><br />
+                    <input type="tel" name="telecom" id="tel">
+                </div>
+                <div class="tell">
+                    <label for="msg" >الرسالة :</label><br />
+                    <textarea name="message" id="msg"
+                    placeholder="اكتب رسالتك في هذه الصفحة....."></textarea>
+                </div>
+                <div class="submit">
+                    <button type="submit">إرسال</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <br /><br />
+    <a href="#top" class="to_up">إلى الأعلى</a>
+    <footer id="down">
+        <blockquote>عبدالرحمن.جميع الحقوق محفوظة 2025 @</blockquote>
+    </footer>
+</body>
+</html>
